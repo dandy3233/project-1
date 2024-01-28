@@ -1,0 +1,47 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #fff7f7;
+    padding: 10px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li a {
+    color: #160d0d;
+    text-decoration: none;
+}
+
+.user-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.user-info img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+}
+
+.user-info h2 {
+    margin: 0;
+}
+
+.user-info h3 {
+    color: #c48080;
+}
+
+.posts {
+    padding: 20px;
+}
