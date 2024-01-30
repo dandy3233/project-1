@@ -109,17 +109,19 @@ header{
       box-shadow: 4px 4px 8px rgba(36,3,3,.2);
   }
 }
-.box2{
+.box{
    
     background-color: #eaeaea;
     display: inline;
-    margin-top: 15vh;
+    margin-top: 20vh;
     align-items:center;
     justify-content:center; 
     font-family: var(--primaryFont);
     font-style: normal;
     padding: 100px;
-    margin-left: 30vh;
+    width: 70vh;
+    height: 60vh;
+    margin-left: 20vh;
     h6{
         font-weight: 400;
         font-size: 1.25rem;
@@ -310,13 +312,13 @@ header{
       margin-top: 15vh;
       }
     }
-    .box2{
+    .box{
       display: inline;
       margin-left: -10vh;
       margin-top: 30vh;
-      /* background-color: #030e1a; */
+      background-color: #030e1a;
       height: auto;
-      width:99%;
+      width:33vh;
       /* width: 500vh; */
     /* margin-top: 15vh; */
     align-items:center;
@@ -327,26 +329,28 @@ header{
     /* margin-left: 30vh; */
     h1{
       font-weight: 500;
-      font-size: 2.90rem;
+      font-size: 2.50rem;
       line-height: 110%;
       margin: 1rem 0;
       font-weight: bold;
       /* margin-left: 30vh; */
       /* margin-right: 7vh; */
-      margin-left: 5vh;
+      margin-left: 3vh;
   }
   h6{
-    margin-left: 9vh;
+    margin-left: 5vh;
   }
     p{
       margin-top: 1.45rem;
       font-weight: 500;
-      font-size: 1.15rem;
+      font-size: 1rem;
       opacity: .7;
-      /* margin-left: 30vh; */
+      margin-left: 1vh;
+      width: 35vh;
   }
   .btn{
-    margin-left: 25vh;
+    margin-left: 20vh;
+    width: 20vh;
     /* font-size: 2vh; */
     /* background-color: #545fc4; */
     text-decoration: none;
@@ -361,6 +365,7 @@ header{
 .about {
     min-height: 100vh;
     position: relative;
+    
 }
 .about .line-styling {
     position: relative;
@@ -383,12 +388,14 @@ header{
     width: 95%;
     height: 5px;
     border-radius: 10px;
+    
 }
     .about-body {
     padding-top: 10rem;
       display: flex;
       justify-content: space-between;
-    
+      /* width: 100vh; */
+      /* background-color: #545fc4; */
   }
   /* @media screen and (max-width: 992px) { */
     .about-description {
@@ -397,6 +404,7 @@ header{
     font-weight: 30px;
     height: 30vh;
     width: 100vh;
+    /* display: none; */
     font-weight: bold;
     margin-left: 5rem;
     align-items:center;
