@@ -7,6 +7,14 @@ body{
     line-height: 1.6;
     background-color: #eaeaea;
     /* background-color: #030e1a; */
+    box-sizing: border-box;
+}
+@media (max-width: 412px) {
+  body{
+    box-sizing: border-box;
+    /* background-color: red; */
+    /* width: 20vh; */
+  }
 }
 header{
 .navbar{
@@ -316,7 +324,7 @@ header{
       display: inline;
       margin-left: -10vh;
       margin-top: 30vh;
-      background-color: #030e1a;
+      /* background-color: #030e1a; */
       height: auto;
       width:33vh;
       /* width: 500vh; */
@@ -335,7 +343,7 @@ header{
       font-weight: bold;
       /* margin-left: 30vh; */
       /* margin-right: 7vh; */
-      margin-left: 3vh;
+      margin-left: 5vh;
   }
   h6{
     margin-left: 5vh;
@@ -345,7 +353,7 @@ header{
       font-weight: 500;
       font-size: 1rem;
       opacity: .7;
-      margin-left: 1vh;
+      margin-left: 3vh;
       width: 35vh;
   }
   .btn{
@@ -488,6 +496,15 @@ h2{
 
 }
 @media (max-width: 412px){
+  .about{
+    min-height: 70vh;
+  }
+  .about .line-styling .style-line {
+    width: 90%;
+    height: 5px;
+    border-radius: 10px;
+    
+  }
   .about-body {
     display: block;
     /* background-color: #030e1a; */
@@ -497,7 +514,7 @@ h2{
   padding: 5px;
   top: 15vh;
   left:  -9vh;
-font-weight: 20px;
+font-weight: 15px;
 height: 10vh;
 width: 99%;
 font-weight: bold;
@@ -505,19 +522,20 @@ position:absolute;
 /* right: 2%; */
   p{
   font-weight: bold;
-  font-style:inherit;
-  font-size: 20px;
+  /* font-style:inherit; */
+  /* font-size: 20px; */
   color: #eaeaea;
+  font-size: 1rem;
 }
 h2{
   font-weight: bold;
-  font-size: 50px;
+  font-size: 45px;
   padding-bottom: 5vh;
 }
 
 }
 .about-img {
-  display: block;
+  display: none;
   margin-top: 25px;
   margin-bottom: 5vh;
   /* margin-right: 5vh; */
@@ -652,10 +670,11 @@ transition: background-color .2s ease-in-out;
     background-color: #eaeaea;
 }
   .education-details {
-    padding: 1.5rem;
+    padding: 1.3rem;
     margin-bottom: 1.5rem;
     font-weight: bold;
     font-size: 3vh;
+    width: 25vh;
 }
 .education-card {
   display: flex;
@@ -1360,12 +1379,13 @@ transition: background-color .2s ease-in-out;
           .contacts-details{
             display: flex;
             height: 35vh;
-            width: 35vh;
+            width: 40vh;
             margin-top: 75vh;
+           margin-left: 0; 
           }
           .personal-details{
             /* width: 0; */
-            margin-right: 25vh;
+            margin-right: 15vh;
             gap: 5px;
             padding: 0;
           /* margin-top: 5vh; */
