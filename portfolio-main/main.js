@@ -1,3 +1,11 @@
+
+// window.addEventListener("beforeunload",(event) =>{
+//     event.preventDefault();
+//     event.returnValue = "";
+// });
+
+
+
 /*===== MENU SHOW =====*/ 
 const showMenu = (toggleId, navId) =>{
     const toggle = document.getElementById(toggleId),
