@@ -177,7 +177,7 @@ img {
   
 }
 .nav__toggle {
-  background-color: var(--first-color);
+  /* background-color: var(--first-color); */
   color: var(--second-color);
   font-size: 1.5rem;
   cursor: pointer;
